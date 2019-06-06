@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bryce Sampson</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./Static/style.css">
 </head>
 
 <body>
@@ -15,88 +15,117 @@
         <nav class="nav nav--margin-right">
             <ul class="nav__list">
                 <li class="nav__list-item"><a href="/">Home</a></li>
-                <li class="nav__list-item"><a href="/about">About</a></li>
-                <li class="nav__list-item"><a href="/contact">Contact</a></li>
+                <li class="nav__list-item"><a href="#about">About</a></li>
+                <li class="nav__list-item"><a href="#contact">Contact</a></li>
+                <li class="nav__list-item"><a href="#projects">Projects</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <main class="main-body">
-        <h2>About Me</h2>
-        <br>
-        <p>Hello, Motherfucker I'm awesome!
-            No you're not dude, don't lie
-            I'm awesome!
-            I'm drivin' around in my mom's ride
-            I'm awesome!
-            A quarter of my life gone by
-            And I met all my friends online
-            Motherfucker I'm awesome!
-            I will run away from a brawl
-            I'm awesome!
-            There's no voice mail, nobody called
-            I'm awesome!
-            I can't afford to buy eight balls
-            And I talk to myself on my Facebook wall</p>
-        <br>
+    <main>
+        <h2 id="about">About Me</h2>
+        <section class="about-me">
+            <p><img src="./Static/Images/310716_10150369355971665_1640454037_n.jpg" alt="Profile Pic" height="75%"></p>
+            <br>
+            <p>Hello, Motherfucker I'm awesome!
+                No you're not dude, don't lie
+                I'm awesome!
+                I'm drivin' around in my mom's ride
+                I'm awesome!
+                A quarter of my life gone by
+                And I met all my friends online
+                Motherfucker I'm awesome!
+                I will run away from a brawl
+                I'm awesome!
+                There's no voice mail, nobody called
+                I'm awesome!
+                I can't afford to buy eight balls
+                And I talk to myself on my Facebook wall
+                <br>
+                When I walk on by
+                Girls be looking like damn he fly
+                I pimp to the beat
+                Walking down the street in my new LaFreak, yeah
+                This is how I roll
+                Animal print, pants out control
+                It's REDFOO with the big afro
+                And like Bruce Leroy I got the glow
+                <br> I'm sexy and I know it
+            </p>
+
+        </section>
+        <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Gradle</li>
+                <li>TDD</li>
+            </ul>
+        </section>
+        <h2 id="projects">Projects</h2>
+        <div class="container">
+            <article class="project">
+                <a href="https://github.com/charles-m-doan/virtual-pet" target="_blank">
+                    <img src="./Static/Images/VPet-screenshot.png" alt="Virtual Pet screenshot" width="400rem"></a>
+                <header>
+                    <h3><a href="https://github.com/charles-m-doan/virtual-pet" target="_blank">Virtual Pet</a></h3>
+                </header>
+                <section>
+                    <p>
+                        <h4>Language/Tools Used</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>Gradle</li>
+                            <li>Git</li>
+                            <li>TDD</li>
+                        </ul>
+                    </p>
+                    <p>For this project, a group of four classmates and I worked together using Java, Git and TDD.
+                        We built an App capable of creating and interacting with virtual pets in various ways.
+                    </p>
+                </section>
+            </article>
+
+            <article class="project">
+                <a href="https://github.com/bryce-sampson/university-clinic-hospital" target="_blank">
+                    <img src="./Static/Images/UCH-screenshot.png" alt="UCH screenshot" width="400rem"></a>
+
+                <header>
+                    <h3><a href="https://github.com/bryce-sampson/university-clinic-hospital" target="_blank">Uni Clinic
+                            Hospital</a>
+                    </h3>
+                </header>
+                <section>
+                    <p>
+                        <h4>Language/Tools Used</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>Gradle</li>
+                            <li>Git</li>
+                            <li>TDD</li>
+                        </ul>
+                    </p>
+                    <p>For this project, two classmates and I worked together using Java, Git and TDD.
+                        We built an App capable of interacting with different hospital employees and having
+                        them perform different task.
+                    </p>
+                </section>
+            </article>
+        </div>
+        <h3 id="contact">Contact Info:</h3>
         <p>Phone: 419-672-1859</p>
         <p>Email: sampsonbrycea@gmail.com</p>
-        <p> <a href="https://www.linkedin.com/in/bryce-sampson-a03068156/">LinkedIn Page</a></p>
-        <p> <a href="https://github.com/bryce-sampson">GitHub Page</a></p>
-        <br>
-        <h3>Skills</h3>
-        <ul>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>TDD</li>
-        </ul>
-        <br>
-        <div class="container">
-            <div class="article-container column-layout column-layout--two">
-                <article>
-                    <header>
-                        <h3><a href="https://github.com/charles-m-doan/virtual-pet">Virtual Pet</a></h3>
-                    </header>
-                    <section>
-                        <p>
-                            <h4>Skills Used</h4>
-                            <ul>
-                                <li>Java</li>
-                                <li>TDD</li>
-                            </ul>
-                        </p>
-                        <p>About project</p>
-                    </section>
-                </article>
-                <br>
-                <article>
-                    <header>
-                        <h3><a href="https://github.com/bryce-sampson/university-clinic-hospital">Uni Clinic
-                                Hospital</a>
-                        </h3>
-                    </header>
-                    <section>
-                        <p>
-                            <h4>Skills Used</h4>
-                            <ul>
-                                <li>Java</li>
-                                <li>TDD</li>
-                            </ul>
-                        </p>
-                        <p>About project</p>
-                    </section>
-                </article>
-            </div>
-        </div>
-        <br>
-        <img src=" imageedit_3_3263435680.jpg" alt="Matrix Cats" width="30%">
-
+        <p> <a href="https://www.linkedin.com/in/bryce-sampson-a03068156/" target="_blank">LinkedIn Page</a></p>
+        <p> <a href="https://github.com/bryce-sampson" target="_blank">GitHub Page
+            </a></p>
 
     </main>
     <footer>
-        <small>&copy; Bryce Sampson</small>
+        <img src="./Static/Images/imageedit_3_3263435680.jpg" alt="Matrix Cats" width="10%">
+        <small>&copy;2019 Bryce Sampson</small>
     </footer>
 
 
