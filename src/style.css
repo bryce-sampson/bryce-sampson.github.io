@@ -10,7 +10,6 @@ html {
   font: 20px;
   margin: 1rem;
 }
-
 a {
   color: #b1587d;
   text-decoration: none;
@@ -18,49 +17,15 @@ a {
 a:hover {
   color: #dc143c;
 }
+article {
+  width: 20rem;
+}
 
 ul {
   list-style-type: none;
 }
 
-.about-me {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem 25rem 0rem 3rem;
-}
-
-.about-me__intro {
-  font-size: 25px;
-}
-
-.contact-button {
-  color: #5f1a37;
-  font-size: 2rem;
-  background-color: #778899;
-  border-width: 5px;
-  border-color: #201f25;
-  border-radius: 1rem;
-}
-#contact {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-info {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-info__link {
-  padding: 1rem;
-}
-
-.footer {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.wrapper {
 }
 
 .main-header {
@@ -82,22 +47,64 @@ ul {
   margin-right: 1rem;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
 }
 
-.nav-list__item {
+.nav__list-item {
   margin-right: 0.5rem;
 }
 
-.nav-list__item:last-child {
+.nav__list-item:last-child {
   margin-right: 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 25rem 0rem 3rem;
+}
+
+.about-me__intro {
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .skills {
   margin: 2 rem;
   margin-bottom: 1rem;
   margin-top: -4rem;
+}
+
+.contact-button {
+  color: #5f1a37;
+  font-size: 2rem;
+  background-color: #778899;
+  border-width: 5px;
+  border-color: #201f25;
+  border-radius: 1rem;
+}
+
+/* .contact-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} */
+
+.contact-info__link {
+  padding: 1rem;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .tabs {
@@ -153,22 +160,3 @@ ul {
 .tab-pane.active {
   display: block;
 }
-
-.container {
-  display: flex;
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 4rem;
-}
-
-/* @media (min-width: 400px) {
-}
-
-@media (min-width: 480px) {
-}
-
-@media (min-width: 600px) {
-}
-
-@media (min-width: 940px) {
-} */
