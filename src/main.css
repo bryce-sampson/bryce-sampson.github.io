@@ -41,11 +41,20 @@ ul {
   border-color: #201f25;
   border-radius: 1rem;
 }
+#contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
 .contact-info {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.contact-info__link {
+  padding: 1rem;
 }
 
 .footer {

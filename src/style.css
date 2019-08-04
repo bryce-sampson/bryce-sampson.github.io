@@ -6,11 +6,12 @@
 
 html {
   background-color: #d3d3d3;
-  font: 20px cosmic sans;
+  color: #5f1a37;
+  font: 20px;
   margin: 1rem;
 }
 a {
-  color: #5f1a37;
+  color: #b1587d;
   text-decoration: none;
 }
 a:hover {
@@ -38,7 +39,7 @@ ul {
 }
 
 .main-header__title {
-  color: #eb660d;
+  color: #778899;
   margin-left: 1rem;
 }
 
@@ -69,24 +70,93 @@ ul {
 }
 
 .container {
-  background-color: #778899;
   display: flex;
-  justify-content: space-around;
-  margin: 2rem;
-  margin-top: 0.5rem;
-  padding: 1rem;
-}
-
-.project {
-  margin-right: 1rem;
-}
-
-.project--last {
-  margin-right: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .skills {
   margin: 2 rem;
   margin-bottom: 1rem;
   margin-top: -4rem;
+}
+
+.contact-button {
+  color: #5f1a37;
+  font-size: 2rem;
+  background-color: #778899;
+  border-width: 5px;
+  border-color: #201f25;
+  border-radius: 1rem;
+}
+
+/* .contact-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} */
+
+.contact-info__link {
+  padding: 1rem;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs {
+  background-color: #778899;
+  border: 1px solid #201f25;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.tabs a {
+  color: #201f25;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tabs button {
+  background-color: #778899;
+  border: none;
+  color: #201f25;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.5rem;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabs button.active {
+  background-color: #b1587d;
+}
+
+.tabs button:hover {
+  background-color: #5f1a37;
+  color: #dc143c;
+}
+
+.tab-content {
+  padding: 6px 12px;
+  display: flex;
+  border-top: none;
+}
+
+.tabs li {
+  color: #201f25;
+  display: inline-flex;
+  font-size: 1.5rem;
+  padding: 14px 16px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
 }
